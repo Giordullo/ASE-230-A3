@@ -1,14 +1,11 @@
-<?php 
-include 'data.php';
-include 'functions.php';
-?>
-
 <!doctype html>
 <html lang="en">
 
 <?php 
 function CreateCards()
 {
+	include("data.php");
+	include("functions.php");
 	for($i=0; $i<count($people); $i++) 
 	{
 ?>
